@@ -1,0 +1,16 @@
+{
+  "table_names":[
+    {
+      "type": "app",
+      "source": "App events",
+      "target":  "app_events"
+    },
+    {
+      "type": "web",
+      "source": "Web events",
+      "target":  "web_events"
+    }
+  ],
+  "bucket_name": "luko-data-eng-exercice",
+  "redshift_schema": "delong"
+}

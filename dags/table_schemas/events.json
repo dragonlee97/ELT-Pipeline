@@ -1,0 +1,41 @@
+[
+  {"name": "ID",
+    "type": "varchar"
+  } ,
+  {"name": "CREATED_AT",
+    "type": "timestamp"
+  },
+  {"name": "DEVICE_ID",
+    "type": "varchar"
+  },
+  {"name": "IP_ADDRESS",
+    "type": "varchar"
+  } ,
+  {"name": "USER_ID",
+    "type": "varchar"
+  },
+  {"name": "UUID",
+    "type": "varchar"
+  },
+  {"name": "EVENT_TYPE",
+    "type": "varchar"
+  },
+  {"name": "PROPERTY_LABEL",
+    "type": "varchar"
+  },
+  {"name": "PLATFORM",
+    "type": "varchar"
+  } ,
+  {"name": "DEVICE_TYPE",
+    "type": "varchar"
+  },
+  {"name": "USER_EMAIL",
+    "type": "varchar"
+  },
+  {"name": "USER_AGENT",
+    "type": "varchar"
+  },
+  {"name": "PAGE_TITLE",
+    "type": "varchar"
+  }
+]
