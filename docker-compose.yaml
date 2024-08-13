@@ -73,8 +73,8 @@ x-airflow-common:
     # WARNING: Use _PIP_ADDITIONAL_REQUIREMENTS option ONLY for a quick checks
     # for other purpose (development, test and especially production usage) build/extend Airflow image.
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- apache-airflow-providers-amazon apache-airflow-providers-common-sql}
-    AWS_ACCESS_KEY_ID: AKIAYRMVRRFXQ5DNUWGM
-    AWS_SECRET_ACCESS_KEY: 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
+    AWS_ACCESS_KEY_ID: 
+    AWS_SECRET_ACCESS_KEY: 
     AIRTABLE_BASE_ID: appWzDISwYl2XFcEz
   volumes:
     - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
